@@ -1,0 +1,16 @@
+.keys{
+    grid-column: 1 / 5;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    align-items:center;
+    justify-content:center;
+    border-right: 1px solid black;
+    min-height: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+    .drum-pad{
+        width: 100px;
+        height: 100px;
+    }
+}
